@@ -137,7 +137,7 @@ margin:10px 200px;
 
 
 .deco-row{
-    background-image: url('Images/RESERVATION_pattern.png');
+    background-image: url('assets/RESERVATION_pattern.png');
     
     background-position: center;
    
@@ -151,7 +151,7 @@ margin:10px 200px;
     font-size: 36px;
     color: #cc9900;
     
-    background-image: url('Images/RESERVATION_Divider.png');
+    background-image: url('assets/RESERVATION_Divider.png');
     background-position: bottom;
     background-repeat: no-repeat;
 
