@@ -133,5 +133,96 @@ header a{
 margin:10px 200px;
 }
 
+/******************* Partie CSS pour Mise en Page du Menu des Plats ***********/
+
+
+.deco-row{
+    background-image: url('Images/RESERVATION_pattern.png');
+    
+    background-position: center;
+   
+    background-size: cover;
+}
+
+.title-categ-plats {
+    
+    font-family: "Yeseva One";
+    font-weight: 400;
+    font-size: 36px;
+    color: #cc9900;
+    
+    background-image: url('Images/RESERVATION_Divider.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    margin-top: 1.3em;
+    height:1.9em;
+}
+
+.categ-plats{
+    margin-right: 5%;
+    width: auto;  
+}
+
+
+
+.plat-bordurebas{
+    padding-top:   10px;    
+    border-bottom: 1px solid #cc9900;
+}
+
+.plat-ingredients{
+    
+    font-family: "Arial";
+    font-size: 120%;
+    color: #625f53;
+
+    font-weight: lighter;
+    text-align: left;
+
+    padding-top: 3%;
+    
+    
+}
+
+.mot-special-entete{
+
+    /*padding-top: -30px;*/
+}
+
+.mot-special{
+    font-family: sans-serif;
+    background: #cc9900;
+    color: white;
+    padding: 3px 3px;
+    
+}
+
+.special-plate{
+    border: 1px solid #cc9900;
+    padding-block: 6px;
+}
+
+
+
+.title-plat, .plat-price {
+    
+    color: #cc9900;
+    font-size: 21px;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    
+}
+
+.mt-5 {
+    margin-top: 4em !important;
+}
+
+.mt-1 {
+    margin-top: 0.25em !important;
+}
+
+
+
 
 
