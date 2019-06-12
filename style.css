@@ -200,7 +200,37 @@ Footer h2{
     }
 }
 
+/*Xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhhhh!!!!!!!!!!!!!!!!!!*/
 
+#guest{
+    background-image: url("assets/REVIEWS_BG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 758px;
+}
 
+.guest-reviews{
+    text-align: center;
+    margin-top: 2em;
+    padding-left: 4em;
+    margin-right: 4em; 
+    color:white;
+}
+
+.tab{
+    background-image: url("assets/tab.png");
+    background-repeat: no-repeat;
+    background-position-x: 25px;
+}
+
+.food{
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em; 
+    color:white;
+    font-family: 'Times New Roman', Times, serif
+}
 
 
