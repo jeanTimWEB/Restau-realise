@@ -1,225 +1,181 @@
 body{
     margin:0px;
     padding:0px;
-    border:solid;
+    text-align: center;    
+    line-height: 24px;
 }
-
-
-h1{
-    font-size: 5em;
-    color: #ffffff;
-    font-family: "Yeseva One";
-    font-weight: 400;
-    text-align: center;
-    margin-top:100px;
-}
-
+/**-------------------------------------------------------------**/
 #promo{
-    background: url('assets/PROMO_BG.png');
-    background-size: cover;
+    background-image: url(assets/PROMO_BG.png);
     background-position: center;
-    width:100%;
-    height: 750px;
+    background-size: cover;
+    height: 758px;
+    max-height:758px;     
+}
+#about{
+    background-image: url(assets/ABOUT_patternBG.png);
+    background-position: center;
+    background-size: cover;
+    height: 758px; 
+    max-height:758px; 
+}
+#ingredients{
+    background-image: url(assets/INGREDIENTS_BG.png);
+    background-position: center;
+    background-size: cover;
+    height: 758px; 
+    max-height:758px;  
+}
+#menu{
+    background-image: url(assets/MENU_patternBG.png);
+    background-position: center;
+    background-size: cover;
+    height: 758px; 
+    max-height:851px;margin-bottom: 200px;  
+}
+#Reservations{
+    background-image: url(assets/RESERVATIONS_patternBG.png);
+    background-position: center;
+    background-size: cover;
+    height: 758px; 
+    max-height:851px;
+}
+/**-------------------------------------------------------------**/
+nav img{
+    margin-left:1.875em;
+    margin-right:15em;    
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar a{
+    margin-left: 50px;
+    font-size: 20px;
+    color:white;
+    font-family: 'Yeseva One', cursive;
+}
+span{
+    color:white;
+}
+.mes-liens{
+    padding-right:50px;
+    padding-left:50px;
+}
+/**-------------------------------------------------------------**/
+.maBox{
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10%;
+}
+.maBox2{
+    background-color: rgba(165, 34, 126, 0.438);
     display: flex;
-    flex-direction: column;
-    align-items: center;  
+    align-items: center;
 }
-.promoDivider{
-    margin:50px;
-    margin-top:-200px;
+.box-about{
+    margin-top:20px;
 }
-.BOUTON_PROMO{
-    margin:auto;
+.box-ingredient{
+    margin-top:100px;
+    background-color: rgba(0, 0, 0, 0.418);
+    padding-bottom:2em;
+    max-width: 20em;
+    max-height: 20em;
+    min-width: 20em;
+    min-height: 20em;    
 }
-.BOUTON_PROMO{
-    margin-top:-200px;
+/**-------------------------------------------------------------**/
+h1{
+    font-family: 'Yeseva One', cursive;
+    color: aliceblue;
+    font-size: 3em;
 }
-.promoBouton{
+h2{
+    font-family: 'Yeseva One', cursive;
+    color: rgb(255, 196, 0);
+    font-size: 200%;
+}
+/**-------------------------------------------------------------**/
+#ingredients h2{
+color:white;
+font-size: 2em; 
+}
+#ingredients p{
+    color:white;
+}
+#ingredients img{
+    margin: 15px; 
+}
+/**-------------------------------------------------------------**/
+.boutons{
     margin:30px;
 }
-/***-------------------------------*/
-#ABOUT{
-    background: url('assets/ABOUT_patternBG.png');
-    background-size: cover;
-    background-position: center;
-    height: 710px;    
+.mes-bouttons{
+    margin:15px 60px;
 }
-
-
-.titreABOUT{
-    font-size: 2em;
-    line-height: 24px;
-    color: #d4c600;
-    font-family: "Lato";
-    font-weight: 400;
-    margin:50px;
+.bouton-menu{
+    padding-left: 45px;
+    padding-right: 45px;
 }
-
-.CGAUCHE{
-    text-align: center;
-    margin-top:100px;
+.liste-gauche{
+    background-color: rgba(0, 0, 0, 0);
 }
-
- 
-
-.CGAUCHE p{
-    width:50%;
-    margin:25px;
-    margin-left:150px;
-    text-align:center;  
-}  
-
-.assiette{
-    margin-top:100px;
+.liste{
+    border-bottom:0.5px solid rgb(255, 196, 0);
 }
-.col-md-6{
-    margin:0px;
-    padding: 0px;
-
+#menu .col-auto{
+    font-family: 'Yeseva One', cursive;
+    color: rgb(255, 196, 0);
+    font-size:1.2em;
 }
-
-
-.navbar{
-    background-color:rgba(255, 255, 255, 0)
+.txt{
+    color: black;
 }
-
-#INGREDIENTS{
-    background: url('assets/INGREDIENTS_BG.png');
-    background-size: cover;
-    background-position: center;
-    height: 758px;
-    
+.block-menu{
+    margin-bottom: 5em;
 }
-.BlockDroite{
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 600px;
-    width: 600px;
-    margin-top:100px;
+.epices{
     display: flex;
-    flex-direction: column;
-    text-align: center;
-
 
 }
-
-#INGREDIENTS h2{
-    color:white;
-    font-family: "Lato";
-    font-weight: 400;
-    text-align: center;
-    margin:50px;
-    padding-top:50px;
+.marge{
+    margin-top:100px;
 }
 
-#INGREDIENTS p{ 
-    color:white;
-    margin-left:10%;
-    margin-right:10%;
-    margin:50px;
-
+.box-reservation{
+    margin-top: 8em;
 }
-.epices img{
-    margin:25px;
+form{
+    margin:15px;
 }
-header img{
-    margin-right:300px;
-    margin-left:100px;
+#Reservations img{
+margin-top:6em;
 }
-header a{
-    margin:0px 25px;
-    color: antiquewhite;
+label{
+    color:rgb(255, 196, 0);
+    font-weight: bolder;
 }
-.ING_divider{
-margin:10px 200px;
+/**-------------------------------------------------------------**/
+@media (min-width: 600px) {
+    h1{
+    font-size: 5em;
+    }
+    .box-ingredient{
+        max-width: 35em;
+        max-height: 35em;
+
+        min-width: 35em;
+        min-height: 35em;
+    }
 }
-
-/******************* Partie CSS pour Mise en Page du Menu des Plats ***********/
-
-
-.deco-row{
-    background-image: url('assets/RESERVATION_pattern.png');
-    
-    background-position: center;
-   
-    background-size: cover;
-}
-
-.title-categ-plats {
-    
-    font-family: "Yeseva One";
-    font-weight: 400;
-    font-size: 36px;
-    color: #cc9900;
-    
-    background-image: url('assets/RESERVATION_Divider.png');
-    background-position: bottom;
-    background-repeat: no-repeat;
-
-    margin-top: 1.3em;
-    height:1.9em;
-}
-
-.categ-plats{
-    margin-right: 5%;
-    width: auto;  
-}
-
-
-
-.plat-bordurebas{
-    padding-top:   10px;    
-    border-bottom: 1px solid #cc9900;
-}
-
-.plat-ingredients{
-    
-    font-family: "Arial";
-    font-size: 120%;
-    color: #625f53;
-
-    font-weight: lighter;
-    text-align: left;
-
-    padding-top: 3%;
-    
-    
-}
-
-.mot-special-entete{
-
-    /*padding-top: -30px;*/
-}
-
-.mot-special{
-    font-family: sans-serif;
-    background: #cc9900;
-    color: white;
-    padding: 3px 3px;
-    
-}
-
-.special-plate{
-    border: 1px solid #cc9900;
-    padding-block: 6px;
-}
-
-
-
-.title-plat, .plat-price {
-    
-    color: #cc9900;
-    font-size: 21px;
-    font-family: "Yeseva One";
-    font-weight: 400;
-    
-}
-
-.mt-5 {
-    margin-top: 4em !important;
-}
-
-.mt-1 {
-    margin-top: 0.25em !important;
+@media (max-width: 600px){
+    .epices{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    #menu{
+        margin-top:200px;
+    }
 }
 
 
