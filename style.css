@@ -43,7 +43,7 @@ body{
 /**-------------------------------------------------------------**/
 nav img{
     margin-left:1.875em;
-    margin-right:15em;    
+    margin-right:2em;      
 }
 .nav{
     background-color: rgba(0, 0, 0, 0);
@@ -153,6 +153,15 @@ margin-top:6em;
 label{
     color:rgb(255, 196, 0);
     font-weight: bolder;
+}
+
+.icons{
+    text-align: start;
+}
+
+.icon{
+    margin-left:-50px;
+    margin-right:-50px;
 }
 /**-------------------------------------------------------------**/
 @media (min-width: 600px) {
