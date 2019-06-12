@@ -31,7 +31,8 @@ body{
     background-position: center;
     background-size: cover;
     height: 758px; 
-    max-height:851px;margin-bottom: 200px;  
+    max-height:851px;
+    margin-bottom: 200px;  
 }
 #Reservations{
     background-image: url(assets/RESERVATIONS_patternBG.png);
@@ -242,4 +243,79 @@ Footer h2{
     font-family: 'Times New Roman', Times, serif
 }
 
+
+.deco-row{
+    background-image: url('assets/MENU_pattern.png');
+    
+    background-position: center;
+   
+    background-size: cover;
+}
+
+.title-categ-plats {
+    
+    font-family: "Yeseva One";
+    font-weight: 400;
+    font-size: 36px;
+    color: #cc9900;
+    
+    background-image: url('assets/RESERVATION_Divider.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    margin-top: 1.3em;
+    height:1.9em;
+}
+
+.categ-plats{
+    margin-right: 5%;
+    width: auto;  
+}
+
+
+
+.plat-bordurebas{
+    padding-top:   10px;    
+    border-bottom: 1px solid #cc9900;
+}
+
+.plat-ingredients{
+    
+    font-family: "Arial";
+    font-size: 120%;
+    color: #625f53;
+
+    font-weight: lighter;
+    text-align: left;
+
+    padding-top: 3%;
+    
+    
+}
+
+
+
+.mot-special{
+    font-family: sans-serif;
+    background: #cc9900;
+    color: white;
+    padding: 3px 3px;
+    
+}
+
+.special-plate{
+    border: 1px solid #cc9900;
+    
+}
+
+
+
+.title-plat, .plat-price {
+    
+    color: #cc9900;
+    font-size: 21px;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    
+}
 
