@@ -93,6 +93,7 @@ h2{
     font-family: 'Yeseva One', cursive;
     color: rgb(255, 196, 0);
     font-size: 200%;
+    margin-top:50px;
 }
 /**-------------------------------------------------------------**/
 #ingredients h2{
@@ -163,6 +164,18 @@ label{
     margin-left:-50px;
     margin-right:-50px;
 }
+Footer{
+    background-color: black;
+  
+    color:white;    
+}
+Footer h2{
+    color:white;
+}
+.bas{
+    padding:30px;
+}
+
 /**-------------------------------------------------------------**/
 @media (min-width: 600px) {
     h1{
